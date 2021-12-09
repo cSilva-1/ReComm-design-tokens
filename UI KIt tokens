@@ -2091,42 +2091,5 @@
           }
       }
     },
-    "spacing": {
-      "0,25GU": {
-        "value": "$spacing.1GU * 0.25"
-      },
-      "0,5GU": {
-        "value": "$spacing.1GU * 0.5"
-      },
-      "1GU": {
-        "value": "8"
-      },
-      "1,5GU": {
-        "value": "$spacing.1GU * 1.5"
-      },
-      "2GU": {
-        "value": "$spacing.1GU * 2"
-      },
-      "3GU": {
-        "value": "$spacing.1GU * 3"
-      },
-      "4GU": {
-        "value": "$spacing.1GU * 4"
-      },
-      "5GU": {
-        "value": "$spacing.1GU * 5"
-      },
-      "6GU": {
-        "value": "$spacing.1GU * 6"
-      },
-      "7GU": {
-        "value": "$spacing.1GU * 7"
-      },
-      "8GU": {
-        "value": "$spacing.1GU * 8"
-      },
-      "10GU": {
-        "value": "$spacing.1GU * 10"
-      }
-    }
+   
   }
