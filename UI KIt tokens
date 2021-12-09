@@ -1,0 +1,2131 @@
+{
+    "swatches": {
+        "Primary": {
+          "@100": "#0093D1",
+          "@90": "#0093D1E6",
+          "@80": "#0093D1CC",
+          "@75": "#0093D1bf",
+          "@50": "#0093D180",
+          "@0": "#0093D100"
+        },
+        "Primary-contrast": {
+          "@100": "#FFFFFF",
+          "@75": "#FFFFFFdf",
+          "@30": "#FFFFFF4d"
+        },
+        "Secondary": {
+          "@100": "#0269A0"
+        },
+        "Tertiary": {
+          "@100": "#60c8f8"
+        },
+        "Highlight": {
+          "@100": "#E1144D",
+          "@90": "#E1144De6",
+          "@85": "#E1144Dd9",
+          "@80": "#E1144Dcc",
+          "@50": "#E1144D80",
+          "@0": "#E1144D00"
+        },
+        "Highlight-contrast": {
+          "@100": "#FFFFFE",
+          "@85": "#FFFFFEd9",
+          "@75": "#FFFFFEbf"
+        },
+        "CTA": {
+          "@100": "#8DC63F"
+        },
+        "CTA-contrast": {
+          "@100": "#FFFFFF"
+        },
+        "Header": {
+          "@100": "#0269A0"
+        },
+        "Header-contrast": {
+          "@100": "#FFFFFF"
+          },
+        "Primary-gradient": {
+          "@100": "#FF0075",
+          "@80": "#FF0075cc"
+        },
+        "Gradient-Primary-to-Primary-Gradient": {
+          "@100": "linear-gradient(0deg, $swatches.Primary.@100 0%, $swatches.Primary-gradient.@100 100%)",
+          "@80": "linear-gradient(0deg, $swatches.Primary.@80 0%, $swatches.Primary-gradient.@80 100%)"
+        },
+        "Grey01": {
+          "@100": "#1a1a1a",
+          "@10": "#1a1a1a1a"
+        },
+        "Grey02": {
+          "@100": "#282828",
+          "@90": "#282828e6",
+          "@80": "#282828cc",
+          "@75": "#282828BF",
+          "@50": "#28282880",
+          "@30": "#2828284d",
+          "@0": "#28282800"
+        },
+        "Grey03": {
+          "@100": "#333333"
+        },
+        "Grey04": {
+          "@100": "#484848"
+        },
+        "Grey05": {
+          "@100": "#666666"
+        },
+        "Grey06": {
+          "@100": "#848484"
+        },
+        "Grey07": {
+          "@100": "#909090"
+        },
+        "Grey08": {
+          "@100": "#a4a4a4"
+        },
+        "Grey09": {
+          "@100": "#cccccc"
+        },
+        "Grey10": {
+          "@100": "#eeeeee"
+        },
+        "Grey11": {
+          "@100": "#f2f2f2"
+        },
+        "Grey12": {
+          "@100": "#f7f7f7",
+          "@90": "#f7f7f7e6",
+          "@80": "#f7f7f7cc",
+          "@50": "#f7f7f780",
+          "@0": "#f7f7f700"
+        },
+        "White":{
+          "@100": "#ffffff",
+          "@90": "#ffffffe6",
+          "@85": "#ffffffd9",
+          "@80": "#ffffffCC",
+          "@75": "#ffffffCC",
+          "@50": "#ffffff80",
+          "@30": "#ffffff4d",
+          "@0": "#ffffff00"
+        },
+        "Alert01": {
+          "@100": "#cc0000"
+        },
+        "Alert02": {
+          "@100": "#eb9999"
+        },
+        "Warning01": {
+          "@100": "#edd000"
+        },
+        "Warning02": {
+          "@100": "#f8ec99"
+        },
+        "Confirmation01": {
+          "@100": "#7fa800"
+        },
+        "Confirmation02": {
+          "@100": "#ccdc99"
+        }
+    },
+    "color": {
+    "123Reg-C-Light": {
+      "Background": {
+        "value": "$swatches.White.@100",
+        "type": "color"
+      },
+      "Background @80": {
+        "value": "$swatches.White.@80",
+        "type": "color"
+      },
+      "Foreground": {
+        "value": "$swatches.Grey02.@100",
+        "type": "color"
+      },
+      "Divider": {
+        "value": "$swatches.Grey06.@100",
+        "type": "color"
+      },
+      "Gradient-Bg100 to Bg0": {
+        "value": "linear-gradient(0deg, $swatches.White.@100 0%, $swatches.White.@90 45%, $swatches.White.@80 50%, $swatches.White.@0 70%)",
+        "type": "color"
+
+      },
+      "Text": {
+        "Heading": {
+          "value": "$swatches.Grey02.@100",
+          "type": "color"
+        },
+        "Heading-Alt": {
+          "value": "$swatches.Primary.@100",
+          "type": "color"
+        },
+        "Heading-Inline link": {
+          "value": "$swatches.Secondary.@100",
+          "type": "color"
+        },
+        "Content": {
+          "value": "$swatches.Grey04.@100",
+          "type": "color"
+        },
+        "Content-Alt": {
+          "value": "$swatches.Primary.@100",
+          "type": "color"
+        },
+        "Content-Inline link": {
+          "value": "$swatches.Secondary.@100",
+          "type": "color"
+        }
+      },
+      "Button": {
+        "Primary-Background": {
+          "value": "$swatches.CTA.@100",
+          "type": "color"
+        },
+        "Primary-Label": {
+          "value": "$swatches.CTA-contrast.@100",
+          "type": "color"
+        },
+        "Secondary-Stroke": {
+          "value": "$swatches.Grey02.@75",
+          "type": "color"
+        },
+        "Secondary-Label": {
+          "value": "$swatches.Grey01.@100",
+          "type": "color"
+        },
+        "Tertiary-Stroke": {
+          "value": "$swatches.Grey02.@30",
+          "type": "color"
+        },
+        "Tertiary-Label": {
+          "value": "$swatches.Grey01.@100",
+          "type": "color"
+        }
+      },
+      "Input": {
+        "Background": {
+          "value": "$swatches.White.@100",
+          "type": "color"
+        },
+        "Border": {
+          "value": "$swatches.Grey09.@100",
+          "type": "color"
+        },
+        "Text": {
+          "User input": {
+            "value": "$swatches.Grey04.@100",
+            "type": "color"
+          },
+          "Prefix + Suffix": {
+            "value": "$swatches.Secondary.@100",
+            "type": "color"
+          }
+        },
+        "Button": {
+          "Primary-Background": {
+            "value": "$swatches.CTA.@100",
+            "type": "color"
+          },
+          "Primary-Label": {
+            "value": "$swatches.CTA-contrast.@100",
+            "type": "color"
+          }
+        }
+      },
+      "Badge": {
+        "Primary-Background": {
+          "value": "$swatches.Primary.@100",
+          "type": "color"
+        },
+        "Primary-Label": {
+          "value": "$swatches.Primary-contrast.@100",
+          "type": "color"
+        },
+        "Sale-Background": {
+          "value": "$swatches.Highlight.@100",
+          "type": "color"
+        },
+        "Sale-Label": {
+          "value": "$swatches.Highlight-contrast.@100",
+          "type": "color"
+        }
+      },
+      "onCard": {
+        "Background": {
+          "value": "$swatches.White.@100",
+          "type": "color"
+        },
+        "Background-Alt": {
+          "value": "$swatches.Grey12.@100",
+          "type": "color"
+        },
+        "Foreground": {
+          "value": "$swatches.Grey02.@100",
+          "type": "color"
+        },
+        "Divider-Muted": {
+          "value": "$swatches.Grey06.@100",
+          "type": "color"
+        },
+        "Border": {
+          "value": "$swatches.Grey01.@10",
+          "type": "color"
+        },
+        "Banner": {
+          "Background": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Label": {
+            "value": "$swatches.Primary-contrast.@100",
+            "type": "color"
+          }
+        },
+        "Section": {
+          "Section-Endorsed": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Section-Muted": {
+            "value": "#2828281a",
+            "type": "color"
+          }
+        },
+        "Text": {
+          "Heading": {
+            "value": "$swatches.Grey02.@100",
+            "type": "color"
+          },
+          "Heading-Alt": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Heading-Inline link": {
+            "value": "$swatches.Secondary.@100",
+            "type": "color"
+          },
+          "Content": {
+            "value": "$swatches.Grey04.@100",
+            "type": "color"
+          },
+          "Content-Alt": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Content-Inline link": {
+            "value": "$swatches.Secondary.@100",
+            "type": "color"
+          }
+        },
+        "Button": {
+          "Primary-Background": {
+            "value": "$swatches.CTA.@100",
+            "type": "color"
+          },
+          "Primary-Label": {
+            "value": "$swatches.CTA-contrast.@100",
+            "type": "color"
+          },
+          "Secondary-Stroke": {
+            "value": "$swatches.Grey02.@75",
+            "type": "color"
+          },
+          "Secondary-Label": {
+            "value": "$swatches.Grey01.@100",
+            "type": "color"
+          },
+          "Tertiary-Stroke": {
+            "value": "$swatches.Grey02.@30",
+            "type": "color"
+          },
+          "Tertiary-Label": {
+            "value": "$swatches.Grey01.@100",
+            "type": "color"
+          }
+        },
+        "Badge": {
+          "Primary": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Primary-Contrast": {
+            "value": "$swatches.White.@100",
+            "type": "color"
+          },
+          "Sale": {
+            "value": "$swatches.Highlight.@100",
+            "type": "color"
+          },
+          "Sale-Contrast": {
+            "value": "$swatches.Highlight-contrast.@100",
+            "type": "color"
+          }
+        }
+      },
+      "Action": {
+        "Alert01": {
+          "value": "$swatches.Alert01.@100",
+          "type": "color"
+        },
+        "Alert02": {
+          "value": "$swatches.Alert02.@100",
+          "type": "color"
+        },
+        "Warning01": {
+          "value": "$swatches.Warning01.@100",
+          "type": "color"
+        },
+        "Warning02": {
+          "value": "$swatches.Warning02.@100",
+          "type": "color"
+        },
+        "Confirmation01": {
+          "value": "$swatches.Confirmation01.@100",
+          "type": "color"
+        },
+        "Confirmation02": {
+          "value": "$swatches.Confirmation02.@100",
+          "type": "color"
+        }
+      }
+    },
+    "123Reg-C-Neutral": {
+      "Background": {
+        "value": "$swatches.Grey12.@100",
+        "type": "color"
+      },
+      "Background @80": {
+        "value": "$swatches.Grey12.@80",
+        "type": "color"
+      },
+      "Foreground": {
+        "value": "$swatches.Grey02.@100",
+        "type": "color"
+      },
+      "Divider": {
+        "value": "$swatches.Grey06.@100",
+        "type": "color"
+      },
+      "Gradient-Bg100 to Bg0": {
+        "value": "linear-gradient(0deg, $swatches.Grey12.@100 0%, $swatches.Grey12.@90 45%, $swatches.Grey12.@80 50%, $swatches.Grey12.@0 70%)",
+        "type": "color"
+
+      },
+      "Text": {
+        "Heading": {
+          "value": "$swatches.Grey02.@100",
+          "type": "color"
+        },
+        "Heading-Alt": {
+          "value": "$swatches.Primary.@100",
+          "type": "color"
+        },
+        "Heading-Inline link": {
+          "value": "$swatches.Secondary.@100",
+          "type": "color"
+        },
+        "Content": {
+          "value": "$swatches.Grey04.@100",
+          "type": "color"
+        },
+        "Content-Alt": {
+          "value": "$swatches.Primary.@100",
+          "type": "color"
+        },
+        "Content-Inline link": {
+          "value": "$swatches.Secondary.@100",
+          "type": "color"
+        }
+      },
+      "Button": {
+        "Primary-Background": {
+          "value": "$swatches.CTA.@100",
+          "type": "color"
+        },
+        "Primary-Label": {
+          "value": "$swatches.CTA-contrast.@100",
+          "type": "color"
+        },
+        "Secondary-Stroke": {
+          "value": "$swatches.Grey02.@75",
+          "type": "color"
+        },
+        "Secondary-Label": {
+          "value": "$swatches.Grey01.@100",
+          "type": "color"
+        },
+        "Tertiary-Stroke": {
+          "value": "$swatches.Grey02.@30",
+          "type": "color"
+        },
+        "Tertiary-Label": {
+          "value": "$swatches.Grey01.@100",
+          "type": "color"
+        }
+      },
+      "Input": {
+        "Background": {
+          "value": "$swatches.White.@100",
+          "type": "color"
+        },
+        "Border": {
+          "value": "$swatches.Grey09.@100",
+          "type": "color"
+        },
+        "Text": {
+          "User input": {
+            "value": "$swatches.Grey04.@100",
+            "type": "color"
+          },
+          "Prefix + Suffix": {
+            "value": "$swatches.Secondary.@100",
+            "type": "color"
+          }
+        },
+        "Button": {
+          "Primary-Background": {
+            "value": "$swatches.CTA.@100",
+            "type": "color"
+          },
+          "Primary-Label": {
+            "value": "$swatches.CTA-contrast.@100",
+            "type": "color"
+          }
+        }
+      },
+      "Badge": {
+        "Primary-Background": {
+          "value": "$swatches.Primary.@100",
+          "type": "color"
+        },
+        "Primary-Label": {
+          "value": "$swatches.Primary-contrast.@100",
+          "type": "color"
+        },
+        "Sale-Background": {
+          "value": "$swatches.Highlight.@100",
+          "type": "color"
+        },
+        "Sale-Label": {
+          "value": "$swatches.Highlight-contrast.@100",
+          "type": "color"
+        }
+      },
+      "onCard": {
+        "Background": {
+          "value": "$swatches.White.@100",
+          "type": "color"
+        },
+        "Background-Alt": {
+          "value": "$swatches.Grey12.@100",
+          "type": "color"
+        },
+        "Foreground": {
+          "value": "$swatches.Grey02.@100",
+          "type": "color"
+        },
+        "Divider-Muted": {
+          "value": "$swatches.Grey06.@100",
+          "type": "color"
+        },
+        "Border": {
+          "value": "$swatches.Grey01.@10",
+          "type": "color"
+        },
+        "Banner": {
+          "Background": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Label": {
+            "value": "$swatches.Primary-contrast.@100",
+            "type": "color"
+          }
+        },
+        "Section": {
+          "Section-Endorsed": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Section-Muted": {
+            "value": "#2828281a",
+            "type": "color"
+          }
+        },
+        "Text": {
+          "Heading": {
+            "value": "$swatches.Grey02.@100",
+            "type": "color"
+          },
+          "Heading-Alt": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Heading-Inline link": {
+            "value": "$swatches.Secondary.@100",
+            "type": "color"
+          },
+          "Content": {
+            "value": "$swatches.Grey04.@100",
+            "type": "color"
+          },
+          "Content-Alt": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Content-Inline link": {
+            "value": "$swatches.Secondary.@100",
+            "type": "color"
+          }
+        },
+        "Button": {
+          "Primary-Background": {
+            "value": "$swatches.CTA.@100",
+            "type": "color"
+          },
+          "Primary-Label": {
+            "value": "$swatches.CTA-contrast.@100",
+            "type": "color"
+          },
+          "Secondary-Stroke": {
+            "value": "$swatches.Grey02.@75",
+            "type": "color"
+          },
+          "Secondary-Label": {
+            "value": "$swatches.Grey01.@100",
+            "type": "color"
+          },
+          "Tertiary-Stroke": {
+            "value": "$swatches.Grey02.@30",
+            "type": "color"
+          },
+          "Tertiary-Label": {
+            "value": "$swatches.Grey01.@100",
+            "type": "color"
+          }
+        },
+        "Badge": {
+          "Primary": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Primary-Contrast": {
+            "value": "$swatches.White.@100",
+            "type": "color"
+          },
+          "Sale": {
+            "value": "$swatches.Highlight.@100",
+            "type": "color"
+          },
+          "Sale-Contrast": {
+            "value": "$swatches.Highlight-contrast.@100",
+            "type": "color"
+          }
+        }
+      },
+      "Action": {
+        "Alert01": {
+          "value": "$swatches.Alert01.@100",
+          "type": "color"
+        },
+        "Alert02": {
+          "value": "$swatches.Alert02.@100",
+          "type": "color"
+        },
+        "Warning01": {
+          "value": "$swatches.Warning01.@100",
+          "type": "color"
+        },
+        "Warning02": {
+          "value": "$swatches.Warning02.@100",
+          "type": "color"
+        },
+        "Confirmation01": {
+          "value": "$swatches.Confirmation01.@100",
+          "type": "color"
+        },
+        "Confirmation02": {
+          "value": "$swatches.Confirmation02.@100",
+          "type": "color"
+        }
+      }
+    },
+    "123Reg-C-Dark": {
+      "Background": {
+        "value": "$swatches.Grey02.@100",
+        "type": "color"
+      },
+      "Background @80": {
+        "value": "$swatches.Grey02.@80",
+        "type": "color"
+      },
+      "Foreground": {
+        "value": "$swatches.White.@100",
+        "type": "color"
+      },
+      "Divider": {
+        "value": "$swatches.Grey06.@100",
+        "type": "color"
+      },
+      "Gradient-Bg100 to Bg0": {
+        "value": "linear-gradient(0deg, $swatches.Grey02.@100 0%, $swatches.Grey02.@90 45%, $swatches.Grey02.@80 50%, $swatches.Grey02.@0 70%)",
+        "type": "color"
+      },
+      "Text": {
+        "Heading": {
+          "value": "$swatches.White.@100",
+          "type": "color"
+        },
+        "Heading-Alt": {
+          "value": "$swatches.Tertiary.@100",
+          "type": "color"
+        },
+        "Heading-Inline link": {
+          "value": "$swatches.Tertiary.@100",
+          "type": "color"
+        },
+        "Content": {
+          "value": "$swatches.Grey11.@100",
+          "type": "color"
+        },
+        "Content-Alt": {
+          "value": "$swatches.Secondary.@100",
+          "type": "color"
+        },
+        "Content-Inline link": {
+          "value": "$swatches.Secondary.@100",
+          "type": "color"
+        }
+      },
+      "Button": {
+        "Primary-Background": {
+          "value": "$swatches.CTA.@100",
+          "type": "color"
+        },
+        "Primary-Label": {
+          "value": "$swatches.CTA-contrast.@100",
+          "type": "color"
+        },
+        "Secondary-Stroke": {
+          "value": "$swatches.White.@75",
+          "type": "color"
+        },
+        "Secondary-Label": {
+          "value": "$swatches.White.@100",
+          "type": "color"
+        },
+        "Tertiary-Stroke": {
+          "value": "$swatches.White.@30",
+          "type": "color"
+        },
+        "Tertiary-Label": {
+          "value": "$swatches.White.@100",
+          "type": "color"
+        }
+      },
+      "Badge": {
+        "Primary-Background": {
+          "value": "$swatches.Primary.@100",
+          "type": "color"
+        },
+        "Primary-Label": {
+          "value": "$swatches.White.@100",
+          "type": "color"
+        },
+        "Sale-Background": {
+          "value": "$swatches.Highlight.@100",
+          "type": "color"
+        },
+        "Sale-Label": {
+          "value": "$swatches.Highlight-contrast.@100",
+          "type": "color"
+        }
+      },
+      "Input": {
+        "Background": {
+          "value": "$swatches.White.@100",
+          "type": "color"
+        },
+        "Border": {
+          "value": "$swatches.Grey09.@100",
+          "type": "color"
+        },
+        "Text": {
+          "User input": {
+            "value": "$swatches.Grey04.@100",
+            "type": "color"
+          },
+          "Prefix + Suffix": {
+            "value": "$swatches.Secondary.@100",
+            "type": "color"
+          }
+        },
+        "Button": {
+          "Primary-Background": {
+            "value": "$swatches.CTA.@100",
+            "type": "color"
+          },
+          "Primary-Label": {
+            "value": "$swatches.CTA-contrast.@100",
+            "type": "color"
+          }
+        }
+      },
+      "onCard": {
+        "Background": {
+          "value": "$swatches.White.@100",
+          "type": "color"
+        },
+        "Background-Alt": {
+          "value": "$swatches.Grey12.@100",
+          "type": "color"
+        },
+        "Foreground": {
+          "value": "$swatches.Grey02.@100",
+          "type": "color"
+        },
+        "Divider-Muted": {
+          "value": "$swatches.Grey06.@100",
+          "type": "color"
+        },
+        "Border": {
+          "value": "$swatches.Grey01.@10",
+          "type": "color"
+        },
+        "Banner": {
+          "Background": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Label": {
+            "value": "$swatches.Primary-contrast.@100",
+            "type": "color"
+          }
+        },
+        "Section": {
+          "Section-Endorsed": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Section-Muted": {
+            "value": "#2828281a",
+            "type": "color"
+          }
+        },
+        "Text": {
+          "Heading": {
+            "value": "$swatches.Grey02.@100",
+            "type": "color"
+          },
+          "Heading-Alt": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Heading-Inline link": {
+            "value": "$swatches.Secondary.@100",
+            "type": "color"
+          },
+          "Content": {
+            "value": "$swatches.Grey04.@100",
+            "type": "color"
+          },
+          "Content-Alt": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Content-Inline link": {
+            "value": "$swatches.Secondary.@100",
+            "type": "color"
+          }
+        },
+        "Button": {
+          "Primary-Background": {
+            "value": "$swatches.CTA.@100",
+            "type": "color"
+          },
+          "Primary-Label": {
+            "value": "$swatches.CTA-contrast.@100",
+            "type": "color"
+          },
+          "Secondary-Stroke": {
+            "value": "$swatches.Grey02.@75",
+            "type": "color"
+          },
+          "Secondary-Label": {
+            "value": "$swatches.Grey01.@100",
+            "type": "color"
+          },
+          "Tertiary-Stroke": {
+            "value": "$swatches.Grey02.@30",
+            "type": "color"
+          },
+          "Tertiary-Label": {
+            "value": "$swatches.Grey01.@100",
+            "type": "color"
+          }
+        },
+        "Badge": {
+          "Primary": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Primary-Contrast": {
+            "value": "$swatches.White.@100",
+            "type": "color"
+          },
+          "Sale": {
+            "value": "$swatches.Highlight.@100",
+            "type": "color"
+          },
+          "Sale-Contrast": {
+            "value": "$swatches.Highlight-contrast.@100",
+            "type": "color"
+          }
+        }
+      },
+      "Action": {
+        "Alert01": {
+          "value": "$swatches.Alert01.@100",
+          "type": "color"
+        },
+        "Alert02": {
+          "value": "$swatches.Alert02.@100",
+          "type": "color"
+        },
+        "Warning01": {
+          "value": "$swatches.Warning01.@100",
+          "type": "color"
+        },
+        "Warning02": {
+          "value": "$swatches.Warning02.@100",
+          "type": "color"
+        },
+        "Confirmation01": {
+          "value": "$swatches.Confirmation01.@100",
+          "type": "color"
+        },
+        "Confirmation02": {
+          "value": "$swatches.Confirmation02.@100",
+          "type": "color"
+        }
+      }
+    },
+    "123Reg-C-Primary": {
+      "Background": {
+        "value": "$swatches.Primary.@100",
+        "type": "color"
+      },
+      "Background @80": {
+        "value": "$swatches.Primary.@80",
+        "type": "color"
+      },
+      "Foreground": {
+        "value": "$swatches.Primary-contrast.@100",
+        "type": "color"
+      },
+      "Divider": {
+        "value": "$swatches.Grey06.@100",
+        "type": "color"
+      },
+      "Gradient-Bg100 to Bg0": {
+        "value": "linear-gradient(0deg, $swatches.Primary.@100 0%, $swatches.Primary.@90 45%, $swatches.Primary.@80 50%, $swatches.Primary.@0 70%)",
+        "type": "color"
+      },
+      "Text": {
+        "Heading": {
+          "value": "$swatches.Primary-contrast.@100",
+          "type": "color"
+        },
+        "Heading-Alt": {
+          "value": "$swatches.Primary-contrast.@100",
+          "type": "color"
+        },
+        "Heading-Inline link": {
+          "value": "$swatches.Primary-contrast.@100",
+          "type": "color"
+        },
+        "Content": {
+          "value": "$swatches.Primary-contrast.@100",
+          "type": "color"
+        },
+        "Content-Alt": {
+          "value": "$swatches.Primary-contrast.@100",
+          "type": "color"
+        },
+        "Content-Inline link": {
+          "value": "$swatches.Primary-contrast.@100",
+          "type": "color"
+        }
+      },
+      "Button": {
+        "Primary-Background": {
+          "value": "$swatches.Primary-contrast.@100",
+          "type": "color"
+        },
+        "Primary-Label": {
+          "value": "$swatches.Primary.@100",
+          "type": "color"
+        },
+        "Secondary-Stroke": {
+          "value": "$swatches.Primary-contrast.@75",
+          "type": "color"
+        },
+        "Secondary-Label": {
+          "value": "$swatches.Primary-contrast.@100",
+          "type": "color"
+        },
+        "Tertiary-Stroke": {
+          "value": "$swatches.Primary-contrast.@30",
+          "type": "color"
+        },
+        "Tertiary-Label": {
+          "value": "$swatches.Primary-contrast.@100",
+          "type": "color"
+        }
+      },
+      "Badge": {
+        "Primary-Background": {
+          "value": "$swatches.Primary-contrast.@100",
+          "type": "color"
+        },
+        "Primary-Label": {
+          "value": "$swatches.Primary.@100",
+          "type": "color"
+        },
+        "Sale-Background": {
+          "value": "$swatches.Primary-contrast.@100",
+          "type": "color"
+        },
+        "Sale-Label": {
+          "value": "$swatches.Primary.@100",
+          "type": "color"
+        }
+      },
+      "Input": {
+        "Background": {
+          "value": "$swatches.White.@100",
+          "type": "color"
+        },
+        "Border": {
+          "value": "$swatches.Grey09.@100",
+          "type": "color"
+        },
+        "Text": {
+          "User input": {
+            "value": "$swatches.Grey04.@100",
+            "type": "color"
+          },
+          "Prefix + Suffix": {
+            "value": "$swatches.Secondary.@100",
+            "type": "color"
+          }
+        },
+        "Button": {
+          "Primary-Background": {
+            "value": "$swatches.CTA.@100",
+            "type": "color"
+          },
+          "Primary-Label": {
+            "value": "$swatches.CTA-contrast.@100",
+            "type": "color"
+          }
+        }
+      },
+      "onCard": {
+        "Background": {
+          "value": "$swatches.White.@100",
+          "type": "color"
+        },
+        "Background-Alt": {
+          "value": "$swatches.Grey12.@100",
+          "type": "color"
+        },
+        "Foreground": {
+          "value": "$swatches.Grey02.@100",
+          "type": "color"
+        },
+        "Divider-Muted": {
+          "value": "$swatches.Grey06.@100",
+          "type": "color"
+        },
+        "Border": {
+          "value": "$swatches.Grey01.@10",
+          "type": "color"
+        },
+        "Banner": {
+          "Background": {
+            "value": "$swatches.Grey02.@100",
+            "type": "color"
+          },
+          "Label": {
+            "value": "$swatches.White.@100",
+            "type": "color"
+          }
+        },
+        "Section": {
+          "Section-Endorsed": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Section-Muted": {
+            "value": "#2828281a",
+            "type": "color"
+          }
+        },
+        "Text": {
+          "Heading": {
+            "value": "$swatches.Grey02.@100",
+            "type": "color"
+          },
+          "Heading-Alt": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Heading-Inline link": {
+            "value": "$swatches.Secondary.@100",
+            "type": "color"
+          },
+          "Content": {
+            "value": "$swatches.Grey04.@100",
+            "type": "color"
+          },
+          "Content-Alt": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Content-Inline link": {
+            "value": "$swatches.Secondary.@100",
+            "type": "color"
+          }
+        },
+        "Button": {
+          "Primary-Background": {
+            "value": "$swatches.CTA.@100",
+            "type": "color"
+          },
+          "Primary-Label": {
+            "value": "$swatches.CTA-contrast.@100",
+            "type": "color"
+          },
+          "Secondary-Stroke": {
+            "value": "$swatches.Grey02.@75",
+            "type": "color"
+          },
+          "Secondary-Label": {
+            "value": "$swatches.Grey01.@100",
+            "type": "color"
+          },
+          "Tertiary-Stroke": {
+            "value": "$swatches.Grey02.@30",
+            "type": "color"
+          },
+          "Tertiary-Label": {
+            "value": "$swatches.Grey01.@100",
+            "type": "color"
+          }
+        },
+        "Badge": {
+          "Primary": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Primary-Contrast": {
+            "value": "$swatches.White.@100",
+            "type": "color"
+          },
+          "Sale": {
+            "value": "$swatches.Highlight.@100",
+            "type": "color"
+          },
+          "Sale-Contrast": {
+            "value": "$swatches.Highlight-contrast.@100",
+            "type": "color"
+          }
+        }
+      },
+      "Action": {
+        "Alert01": {
+          "value": "$swatches.Alert01.@100",
+          "type": "color"
+        },
+        "Alert02": {
+          "value": "$swatches.Alert02.@100",
+          "type": "color"
+        },
+        "Warning01": {
+          "value": "$swatches.Warning01.@100",
+          "type": "color"
+        },
+        "Warning02": {
+          "value": "$swatches.Warning02.@100",
+          "type": "color"
+        },
+        "Confirmation01": {
+          "value": "$swatches.Confirmation01.@100",
+          "type": "color"
+        },
+        "Confirmation02": {
+          "value": "$swatches.Confirmation02.@100",
+          "type": "color"
+        }
+      }
+    },
+    "123Reg-C-Primary gradient": {
+      "Background": {
+        "value": "$swatches.Gradient-Primary-to-Primary-Gradient.@100",
+        "type": "color"
+      },
+      "Background @80": {
+        "value": "$swatches.Gradient-Primary-to-Primary-Gradient.@80",
+        "type": "color"
+      },
+      "Foreground": {
+        "value": "$swatches.Primary-contrast.@100",
+        "type": "color"
+      },
+      "Divider": {
+        "value": "$swatches.Grey06.@100",
+        "type": "color"
+      },
+      "Gradient-Bg100 to Bg0": {
+        "value": "linear-gradient(0deg, $swatches.Primary.@100 0%, $swatches.Primary.@90 45%, $swatches.Primary.@80 50%, $swatches.Primary.@0 70%)",
+        "type": "color"
+
+      },
+      "Text": {
+        "Heading": {
+          "value": "$swatches.Primary-contrast.@100",
+          "type": "color"
+        },
+        "Heading-Alt": {
+          "value": "$swatches.Primary-contrast.@100",
+          "type": "color"
+        },
+        "Heading-Inline link": {
+          "value": "$swatches.Primary-contrast.@100",
+          "type": "color"
+        },
+        "Content": {
+          "value": "$swatches.Primary-contrast.@100",
+          "type": "color"
+        },
+        "Content-Alt": {
+          "value": "$swatches.Primary-contrast.@100",
+          "type": "color"
+        },
+        "Content-Inline link": {
+          "value": "$swatches.Primary-contrast.@100",
+          "type": "color"
+        }
+      },
+      "Button": {
+        "Primary-Background": {
+          "value": "$swatches.Primary-contrast.@100",
+          "type": "color"
+        },
+        "Primary-Label": {
+          "value": "$swatches.Primary.@100",
+          "type": "color"
+        },
+        "Secondary-Stroke": {
+          "value": "$swatches.Primary-contrast.@75",
+          "type": "color"
+        },
+        "Secondary-Label": {
+          "value": "$swatches.White.@100",
+          "type": "color"
+        },
+        "Tertiary-Stroke": {
+          "value": "$swatches.Primary-contrast.@30",
+          "type": "color"
+        },
+        "Tertiary-Label": {
+          "value": "$swatches.Primary-contrast.@100",
+          "type": "color"
+        }
+      },
+      "Badge": {
+        "Primary-Background": {
+          "value": "$swatches.Primary-contrast.@100",
+          "type": "color"
+        },
+        "Primary-Label": {
+          "value": "$swatches.Primary.@100",
+          "type": "color"
+        },
+        "Sale-Background": {
+          "value": "$swatches.Highlight.@100",
+          "type": "color"
+        },
+        "Sale-Label": {
+          "value": "$swatches.Highlight-contrast.@100",
+          "type": "color"
+        }
+      },
+      "Input": {
+        "Background": {
+          "value": "$swatches.White.@100",
+          "type": "color"
+        },
+        "Border": {
+          "value": "$swatches.Grey09.@100",
+          "type": "color"
+        },
+        "Text": {
+          "User input": {
+            "value": "$swatches.Grey04.@100",
+            "type": "color"
+          },
+          "Prefix + Suffix": {
+            "value": "$swatches.Secondary.@100",
+            "type": "color"
+          }
+        },
+        "Button": {
+          "Primary-Background": {
+            "value": "$swatches.CTA.@100",
+            "type": "color"
+          },
+          "Primary-Label": {
+            "value": "$swatches.CTA-contrast.@100",
+            "type": "color"
+          }
+        }
+      },
+      "onCard": {
+        "Background": {
+          "value": "$swatches.White.@100",
+          "type": "color"
+        },
+        "Background-Alt": {
+          "value": "$swatches.Grey12.@100",
+          "type": "color"
+        },
+        "Foreground": {
+          "value": "$swatches.Grey02.@100",
+          "type": "color"
+        },
+        "Divider-Muted": {
+          "value": "$swatches.Grey06.@100",
+          "type": "color"
+        },
+        "Border": {
+          "value": "$swatches.Grey01.@10",
+          "type": "color"
+        },
+        "Banner": {
+          "Background": {
+            "value": "$swatches.Grey02.@100",
+            "type": "color"
+          },
+          "Label": {
+            "value": "$swatches.White.@100",
+            "type": "color"
+          }
+        },
+        "Section": {
+          "Section-Endorsed": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Section-Muted": {
+            "value": "#2828281a",
+            "type": "color"
+          }
+        },
+        "Text": {
+          "Heading": {
+            "value": "$swatches.Grey02.@100",
+            "type": "color"
+          },
+          "Heading-Alt": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Heading-Inline link": {
+            "value": "$swatches.Secondary.@100",
+            "type": "color"
+          },
+          "Content": {
+            "value": "$swatches.Grey04.@100",
+            "type": "color"
+          },
+          "Content-Alt": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Content-Inline link": {
+            "value": "$swatches.Secondary.@100",
+            "type": "color"
+          }
+        },
+        "Button": {
+          "Primary-Background": {
+            "value": "$swatches.CTA.@100",
+            "type": "color"
+          },
+          "Primary-Label": {
+            "value": "$swatches.CTA-contrast.@100",
+            "type": "color"
+          },
+          "Secondary-Stroke": {
+            "value": "$swatches.Grey02.@75",
+            "type": "color"
+          },
+          "Secondary-Label": {
+            "value": "$swatches.Grey01.@100",
+            "type": "color"
+          },
+          "Tertiary-Stroke": {
+            "value": "$swatches.Grey02.@30",
+            "type": "color"
+          },
+          "Tertiary-Label": {
+            "value": "$swatches.Grey01.@100",
+            "type": "color"
+          }
+        },
+        "Badge": {
+          "Primary": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Primary-Contrast": {
+            "value": "$swatches.White.@100",
+            "type": "color"
+          },
+          "Sale": {
+            "value": "$swatches.Highlight.@100",
+            "type": "color"
+          },
+          "Sale-Contrast": {
+            "value": "$swatches.Highlight-contrast.@100",
+            "type": "color"
+          }
+        }
+      },
+      "Action": {
+        "Alert01": {
+          "value": "$swatches.Alert01.@100",
+          "type": "color"
+        },
+        "Alert02": {
+          "value": "$swatches.Alert02.@100",
+          "type": "color"
+        },
+        "Warning01": {
+          "value": "$swatches.Warning01.@100",
+          "type": "color"
+        },
+        "Warning02": {
+          "value": "$swatches.Warning02.@100",
+          "type": "color"
+        },
+        "Confirmation01": {
+          "value": "$swatches.Confirmation01.@100",
+          "type": "color"
+        },
+        "Confirmation02": {
+          "value": "$swatches.Confirmation02.@100",
+          "type": "color"
+        }
+      }
+    },
+    "123Reg-C-Highlight": {
+      "Background": {
+        "value": "$swatches.Highlight.@100",
+        "type": "color"
+      },
+      "Background @80": {
+        "value": "$swatches.Highlight.@80",
+        "type": "color"
+      },
+      "Foreground": {
+        "value": "$swatches.Highlight-contrast.@100",
+        "type": "color"
+      },
+      "Divider": {
+        "value": "$swatches.Grey06.@100",
+        "type": "color"
+      },
+      "Gradient-Bg100 to Bg0": {
+        "value": "linear-gradient(0deg, $swatches.Highlight.@100 0%, $swatches.Highlight.@90 45%, $swatches.Highlight.@80 50%, $swatches.Highlight.@0 70%)",
+        "type": "color"
+      },
+      "Text": {
+        "Heading": {
+          "value": "$swatches.Highlight-contrast.@100",
+          "type": "color"
+        },
+        "Heading-Alt": {
+          "value": "$swatches.Highlight-contrast.@100",
+          "type": "color"
+        },
+        "Heading-Inline link": {
+          "value": "$swatches.Highlight-contrast.@100",
+          "type": "color"
+        },
+        "Content": {
+          "value": "$swatches.Highlight-contrast.@85",
+          "type": "color"
+        },
+        "Content-Alt": {
+          "value": "$swatches.Highlight-contrast.@85",
+          "type": "color"
+        },
+        "Content-Inline link": {
+          "value": "$swatches.Highlight-contrast.@100",
+          "type": "color"
+        }
+      },
+      "Button": {
+        "Primary-Background": {
+          "value": "$swatches.Highlight-contrast.@100",
+          "type": "color"
+        },
+        "Primary-Label": {
+          "value": "$swatches.Highlight.@100",
+          "type": "color"
+        },
+        "Secondary-Stroke": {
+          "value": "$swatches.Highlight-contrast.@75",
+          "type": "color"
+        },
+        "Secondary-Label": {
+          "value": "$swatches.Highlight-contrast.@100",
+          "type": "color"
+        },
+        "Tertiary-Stroke": {
+          "value": "$swatches.Grey02.@30",
+          "type": "color"
+        },
+        "Tertiary-Label": {
+          "value": "$swatches.Grey01.@100",
+          "type": "color"
+        }
+      },
+      "Badge": {
+        "Primary-Background": {
+          "value": "$swatches.Highlight-contrast.@100",
+          "type": "color"
+        },
+        "Primary-Label": {
+          "value": "$swatches.Highlight.@100",
+          "type": "color"
+        },
+        "Sale-Background": {
+          "value": "$swatches.Highlight-contrast.@100",
+          "type": "color"
+        },
+        "Sale-Label": {
+          "value": "$swatches.Highlight.@100",
+          "type": "color"
+        }
+      },
+      "Input": {
+        "Background": {
+          "value": "$swatches.White.@100",
+          "type": "color"
+        },
+        "Border": {
+          "value": "$swatches.Grey09.@100",
+          "type": "color"
+        },
+        "Text": {
+          "User input": {
+            "value": "$swatches.Grey04.@100",
+            "type": "color"
+          },
+          "Prefix + Suffix": {
+            "value": "$swatches.Secondary.@100",
+            "type": "color"
+          }
+        },
+        "Button": {
+          "Primary-Background": {
+            "value": "$swatches.CTA.@100",
+            "type": "color"
+          },
+          "Primary-Label": {
+            "value": "$swatches.CTA-contrast.@100",
+            "type": "color"
+          }
+        }
+      },
+      "onCard": {
+        "Background": {
+          "value": "$swatches.White.@100",
+          "type": "color"
+        },
+        "Background-Alt": {
+          "value": "$swatches.Grey12.@100",
+          "type": "color"
+        },
+        "Foreground": {
+          "value": "$swatches.Grey02.@100",
+          "type": "color"
+        },
+        "Divider-Muted": {
+          "value": "$swatches.Grey06.@100",
+          "type": "color"
+        },
+        "Border": {
+          "value": "$swatches.Grey01.@10",
+          "type": "color"
+        },
+        "Banner": {
+          "Background": {
+            "value": "$swatches.Grey02.@100",
+            "type": "color"
+          },
+          "Label": {
+            "value": "$swatches.White.@100",
+            "type": "color"
+          }
+        },
+        "Section": {
+          "Section-Endorsed": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Section-Muted": {
+            "value": "#2828281a",
+            "type": "color"
+          }
+        },
+        "Text": {
+          "Heading": {
+            "value": "$swatches.Grey02.@100",
+            "type": "color"
+          },
+          "Heading-Alt": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Heading-Inline link": {
+            "value": "$swatches.Secondary.@100",
+            "type": "color"
+          },
+          "Content": {
+            "value": "$swatches.Grey04.@100",
+            "type": "color"
+          },
+          "Content-Alt": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Content-Inline link": {
+            "value": "$swatches.Secondary.@100",
+            "type": "color"
+          }
+        },
+        "Button": {
+          "Primary-Background": {
+            "value": "$swatches.CTA.@100",
+            "type": "color"
+          },
+          "Primary-Label": {
+            "value": "$swatches.CTA-contrast.@100",
+            "type": "color"
+          },
+          "Secondary-Stroke": {
+            "value": "$swatches.Grey02.@75",
+            "type": "color"
+          },
+          "Secondary-Label": {
+            "value": "$swatches.Grey01.@100",
+            "type": "color"
+          },
+          "Tertiary-Stroke": {
+            "value": "$swatches.Grey02.@30",
+            "type": "color"
+          },
+          "Tertiary-Label": {
+            "value": "$swatches.Grey01.@100",
+            "type": "color"
+          }
+        },
+        "Badge": {
+          "Primary": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Primary-Contrast": {
+            "value": "$swatches.White.@100",
+            "type": "color"
+          },
+          "Sale": {
+            "value": "$swatches.Highlight.@100",
+            "type": "color"
+          },
+          "Sale-Contrast": {
+            "value": "$swatches.Highlight-contrast.@100",
+            "type": "color"
+          }
+        }
+      },
+      "Action": {
+        "Alert01": {
+          "value": "$swatches.Alert01.@100",
+          "type": "color"
+        },
+        "Alert02": {
+          "value": "$swatches.Alert02.@100",
+          "type": "color"
+        },
+        "Warning01": {
+          "value": "$swatches.Warning01.@100",
+          "type": "color"
+        },
+        "Warning02": {
+          "value": "$swatches.Warning02.@100",
+          "type": "color"
+        },
+        "Confirmation01": {
+          "value": "$swatches.Confirmation01.@100",
+          "type": "color"
+        },
+        "Confirmation02": {
+          "value": "$swatches.Confirmation02.@100",
+          "type": "color"
+        }
+      }
+    },
+      "123Reg-Bookends": {
+        "Header": {
+            "Background": {
+              "value": "$swatches.Header.@100",
+              "type": "color"
+            },
+            "Header-Active": {
+              "value": "$swatches.CTA.@100",
+              "type": "color"
+            },
+          "Text": {
+            "Heading": {
+              "value": "$swatches.White.@100",
+              "type": "color"
+            }
+          }
+        },
+        "Footer": {
+          "Background": {
+            "value": "$swatches.Grey02.@100",
+            "type": "color"
+          },
+          "Text": {
+            "Heading": {
+              "value": "$swatches.White.@100",
+              "type": "color"
+            },
+            "Content": {
+              "value": "$swatches.White.@85",
+              "type": "color"
+            },
+            "Inline link": {
+              "value": "$swatches.Tertiary.@100",
+              "type": "color"
+            }
+          }
+        },
+        "Nav": {
+          "Background": {
+            "value": "$swatches.White.@100",
+            "type": "color"
+          },
+          "Header-Active": {
+            "value": "$swatches.Primary.@100",
+            "type": "color"
+          },
+          "Divider": {
+            "value": "$swatches.Grey10.@100",
+            "type": "color"
+          },
+          "Text": {
+            "Heading": {
+              "value": "$swatches.Grey02.@100",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "fontFamilies": {
+        "heading-font": {
+          "value": "Rubik",
+          "type": "fontFamilies"
+        },
+        "body-font": {
+          "value": "Open Sans",
+          "type": "fontFamilies"
+        },
+        "code-font": {
+          "value": "Source Code Pro",
+          "type": "fontFamilies"
+        }
+    },
+    "lineHeights": {
+    "0": {
+        "value": "130%",
+        "type": "lineHeights"
+    },
+    "1": {
+        "value": "140%",
+        "type": "lineHeights"
+    },
+    "2": {
+        "value": "150%",
+        "type": "lineHeights"
+    },
+    "3": {
+        "value": "24",
+        "type": "lineHeights"
+    },
+    "4": {
+        "value": "AUTO",
+        "type": "lineHeights"
+    },
+    "5": {
+        "value": "200%",
+        "type": "lineHeights"
+    }
+    },
+    "fontWeights": {
+      "medium": {
+          "value": "Regular",
+          "type": "fontWeights"
+      },
+      "body-bold": {
+        "value": "Bold",
+        "type": "fontWeights"
+    },
+      "regular": {
+          "value": "Regular",
+          "type": "fontWeights"
+      }
+    },
+    "fontSize": {
+    "0": {
+        "value": "12",
+        "type": "fontSizes"
+    },
+    "1": {
+        "value": "14",
+        "type": "fontSizes"
+    },
+    "2": {
+        "value": "16",
+        "type": "fontSizes"
+    },
+    "3": {
+        "value": "18",
+        "type": "fontSizes"
+    },
+    "4": {
+        "value": "21",
+        "type": "fontSizes"
+    },
+    "5": {
+        "value": "24",
+        "type": "fontSizes"
+    },
+    "6": {
+        "value": "28",
+        "type": "fontSizes"
+    },
+    "7": {
+        "value": "32",
+        "type": "fontSizes"
+    },
+    "8": {
+        "value": "36",
+        "type": "fontSizes"
+    },
+    "9": {
+        "value": "55",
+        "type": "fontSizes"
+    }
+    },
+    "letterSpacing": {
+    "0": {
+        "value": "0%",
+        "type": "letterSpacing"
+    }
+    },
+    "paragraphSpacing": {
+    "0": {
+        "value": "0",
+        "type": "paragraphSpacing"
+    },
+    "1": {
+        "value": "7",
+        "type": "paragraphSpacing"
+    },
+    "2": {
+        "value": "8",
+        "type": "paragraphSpacing"
+    },
+    "3": {
+        "value": "9",
+        "type": "paragraphSpacing"
+    },
+    "4": {
+        "value": "10.5",
+        "type": "paragraphSpacing"
+    },
+    "5": {
+        "value": "12",
+        "type": "paragraphSpacing"
+    },
+    "6": {
+        "value": "14",
+        "type": "paragraphSpacing"
+    },
+    "7": {
+        "value": "18",
+        "type": "paragraphSpacing"
+    },
+    "8": {
+        "value": "27.5",
+        "type": "paragraphSpacing"
+    }
+    },
+    "typography": {
+      "123Reg-Fonts": {
+          "Typescale": {
+          "Display": {
+              "value": {
+              "fontFamily": "$fontFamilies.heading-font",
+              "fontWeight": "$fontWeights.medium",
+              "lineHeight": "$lineHeights.0",
+              "fontSize": "$fontSize.9",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.8"
+              },
+              "type": "typography"
+          },
+          "Heading XXL": {
+              "value": {
+              "fontFamily": "$fontFamilies.heading-font",
+              "fontWeight": "$fontWeights.medium",
+              "lineHeight": "$lineHeights.0",
+              "fontSize": "$fontSize.8",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.7"
+              },
+              "type": "typography"
+          },
+          "Heading XL": {
+              "value": {
+              "fontFamily": "$fontFamilies.heading-font",
+              "fontWeight": "$fontWeights.medium",
+              "lineHeight": "$lineHeights.0",
+              "fontSize": "$fontSize.7",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0"
+              },
+              "type": "typography"
+          },
+          "Heading L": {
+              "value": {
+              "fontFamily": "$fontFamilies.heading-font",
+              "fontWeight": "$fontWeights.medium",
+              "lineHeight": "$lineHeights.1",
+              "fontSize": "$fontSize.6",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.6"
+              },
+              "type": "typography"
+          },
+          "Heading M": {
+              "value": {
+              "fontFamily": "$fontFamilies.heading-font",
+              "fontWeight": "$fontWeights.medium",
+              "lineHeight": "$lineHeights.1",
+              "fontSize": "$fontSize.5",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.5"
+              },
+              "type": "typography"
+          },
+          "Heading S": {
+              "value": {
+              "fontFamily": "$fontFamilies.heading-font",
+              "fontWeight": "$fontWeights.medium",
+              "lineHeight": "$lineHeights.1",
+              "fontSize": "$fontSize.4",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.4"
+              },
+              "type": "typography"
+          },
+          "Heading XS": {
+              "value": {
+              "fontFamily": "$fontFamilies.heading-font",
+              "fontWeight": "$fontWeights.medium",
+              "lineHeight": "$lineHeights.1",
+              "fontSize": "$fontSize.3",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.3"
+              },
+              "type": "typography"
+          },
+          "Heading XXS": {
+              "value": {
+              "fontFamily": "$fontFamilies.heading-font",
+              "fontWeight": "$fontWeights.medium",
+              "lineHeight": "$lineHeights.2",
+              "fontSize": "$fontSize.2",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.2"
+              },
+              "type": "typography"
+          }
+          },
+          "Body": {
+          "Copy": {
+              "value": {
+              "fontFamily": "$fontFamilies.body-font",
+              "fontWeight": "$fontWeights.regular",
+              "lineHeight": "$lineHeights.2",
+              "fontSize": "$fontSize.2",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.2"
+              },
+              "type": "typography"
+          },
+          "Copy Bold": {
+            "value": {
+              "fontFamily": "$fontFamilies.body-font",
+              "fontWeight": "$fontWeights.body-bold",
+              "lineHeight": "$lineHeights.2",
+              "fontSize": "$fontSize.2",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.2"
+            },
+            "type": "typography"
+          },
+          "Copy + Inline link": {
+              "value": {
+              "fontFamily": "$fontFamilies.body-font",
+              "fontWeight": "$fontWeights.regular",
+              "lineHeight": "$lineHeights.3",
+              "fontSize": "$fontSize.2",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.2"
+              },
+              "type": "typography"
+          },
+          "Footnote": {
+              "value": {
+              "fontFamily": "$fontFamilies.body-font",
+              "fontWeight": "$fontWeights.regular",
+              "lineHeight": "$lineHeights.2",
+              "fontSize": "$fontSize.1",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.1"
+              },
+              "type": "typography"
+          },
+          "Footnote Bold": {
+            "value": {
+            "fontFamily": "$fontFamilies.body-font",
+            "fontWeight": "$body-bold",
+            "lineHeight": "$lineHeights.2",
+            "fontSize": "$fontSize.1",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.1"
+            },
+            "type": "typography"
+      },
+          "Smallprint": {
+              "value": {
+              "fontFamily": "$fontFamilies.body-font",
+              "fontWeight": "$fontWeights.regular",
+              "lineHeight": "$lineHeights.2",
+              "fontSize": "$fontSize.0",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0"
+              },
+              "type": "typography"
+          }
+          },
+          "CTA": {
+          "Large": {
+              "value": {
+              "fontFamily": "$fontFamilies.heading-font",
+              "fontWeight": "$fontWeights.medium",
+              "lineHeight": "$lineHeights.4",
+              "fontSize": "$fontSize.3",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0"
+              },
+              "type": "typography"
+          },
+          "Medium": {
+              "value": {
+              "fontFamily": "$fontFamilies.heading-font",
+              "fontWeight": "$fontWeights.medium",
+              "lineHeight": "$lineHeights.4",
+              "fontSize": "$fontSize.2",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0"
+              },
+              "type": "typography"
+          }
+          },
+          "Code": {
+          "Code": {
+              "value": {
+              "fontFamily": "$fontFamilies.code-font",
+              "fontWeight": "$fontWeights.re",
+              "lineHeight": "$lineHeights.5",
+              "fontSize": "$fontSize.2",
+              "letterSpacing": "$letterSpacing.0",
+              "paragraphSpacing": "$paragraphSpacing.0"
+              },
+              "type": "typography"
+          }
+          }
+      }
+    },
+    "spacing": {
+      "0,25GU": {
+        "value": "$spacing.1GU * 0.25"
+      },
+      "0,5GU": {
+        "value": "$spacing.1GU * 0.5"
+      },
+      "1GU": {
+        "value": "8"
+      },
+      "1,5GU": {
+        "value": "$spacing.1GU * 1.5"
+      },
+      "2GU": {
+        "value": "$spacing.1GU * 2"
+      },
+      "3GU": {
+        "value": "$spacing.1GU * 3"
+      },
+      "4GU": {
+        "value": "$spacing.1GU * 4"
+      },
+      "5GU": {
+        "value": "$spacing.1GU * 5"
+      },
+      "6GU": {
+        "value": "$spacing.1GU * 6"
+      },
+      "7GU": {
+        "value": "$spacing.1GU * 7"
+      },
+      "8GU": {
+        "value": "$spacing.1GU * 8"
+      },
+      "10GU": {
+        "value": "$spacing.1GU * 10"
+      }
+    }
+  }
