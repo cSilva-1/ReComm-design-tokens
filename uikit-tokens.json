@@ -17,9 +17,7 @@
           "@100": "#E1144D"
         },
         "Highlight-contrast": {
-          "@100": "#FFFFFE",
-          "@85": "#FFFFFEd9",
-          "@75": "#FFFFFEbf"
+          "@100": "#FFFFFE"
         },
         "CTA": {
           "@100": "#8DC63F"
