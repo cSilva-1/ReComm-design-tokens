@@ -5,28 +5,28 @@
           "value": "#0093D1"
         },
         "Primary-contrast": {
-          "@100": "#FFFFFF"
+          "value": "#FFFFFF"
         },
         "Secondary": {
-          "@100": "#0269A0"
+          "value": "#0269A0"
         },
         "Tertiary": {
-          "@100": "#60c8f8"
+          "value": "#60c8f8"
         },
         "Highlight": {
-          "@100": "#E1144D"
+          "value": "#E1144D"
         },
         "Highlight-contrast": {
-          "@100": "#FFFFFE"
+          "value": "#FFFFFE"
         },
         "CTA": {
-          "@100": "#8DC63F"
+          "value": "#8DC63F"
         },
         "CTA-contrast": {
-          "@100": "#FFFFFF"
+          "value": "#FFFFFF"
         },
         "Header": {
-          "@100": "#0269A0"
+          "value": "#0269A0"
         },
         "Header-contrast": {
           "@100": "#FFFFFF"
