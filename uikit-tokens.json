@@ -5,9 +5,7 @@
           "value": "#0093D1"
         },
         "Primary-contrast": {
-          "@100": "#FFFFFF",
-          "@75": "#FFFFFFdf",
-          "@30": "#FFFFFF4d"
+          "@100": "#FFFFFF"
         },
         "Secondary": {
           "@100": "#0269A0"
